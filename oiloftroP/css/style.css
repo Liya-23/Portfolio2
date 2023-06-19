@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;}
+.navbar{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/img1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    margin-right: 8%;
+    background-color: blueviolet;
+    width: 100%;
+    position: fixed;
+}
+.logo{
+    color: aqua;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: green;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+nav ul li a{
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: green;
+    transition: .4s;
+}
+.btn{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+}
+h1{
+    color: aqua;
+    margin: 20px 0px 20px;
+    font-size: 70px;
+}
+h3{
+    color: aqua;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+h4{
+    color: blue;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.stcontact form{
+    width: 390px;
+    max-width: 100%;
+    position: relative;
+}
+.stcontact form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid green;
+    outline: none;
+    border-radius: 30px;
+}
+.stcontact form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: green;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: aliceblue;
+}
+.about img{
+    height: auto;
+    width: 400px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h6{
+    color: aquamarine;
+    font-size: 20px;
+}
+.about-text h2{
+    color: aquamarine;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: aquamarine;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: blueviolet;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid green;
+    cursor: pointer;
+}
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 2px solid green;
+    height: 220px;
+    width: 100%;
+}
+.project-item {
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+.container h1{
+    font-size: 50px;
+    text-align: center;
+}
+.container h6{
+    text-align: center;
+    font-size: larger;
+}
